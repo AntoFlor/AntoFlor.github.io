@@ -17,6 +17,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* border */
+    /*border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #999999, #ffffff) 0.5;*/
 }
 
 header div{
@@ -77,6 +81,37 @@ div a svg{
 }
 
 #name{
+    display: flex;
+    flex-direction: column;
+}
+
+#bg{
+    background: url(img/test.png);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    max-width: 80vh;
+    width: 80%;
+    height: 100%;
+
+    position: absolute;
+    right: -80%;
+    top: 0;
+
+    background-color: #ffffff;
+
+    color: #0c0c0d;
+
+    /* disable le select bleu de la souris */
+    -webkit-touch-callout: none; /* Safari */
+    -webkit-user-select: none; /* Chrome */     
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; 
+
     display: flex;
     flex-direction: column;
 }
