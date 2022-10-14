@@ -114,4 +114,26 @@ nav{
 
     display: flex;
     flex-direction: column;
+
+    transition: ease-in-out 0.4s;
+}
+
+nav a{
+    width: 80%;
+    color: #0c0c0d;
+    text-decoration: none;
+    font-family: 'Rubik', 'Barlow', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#close{
+    font-size: 40px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#close{
+    cursor:pointer;
 }
