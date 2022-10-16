@@ -9,6 +9,8 @@ body{
     color: #ffffff; 
 
     overflow-x: hidden;
+
+    font-family: 'Rubik', 'Barlow', sans-serif;
 }
 
 header{
@@ -20,9 +22,7 @@ header{
     justify-content: center;
     align-items: center;
 
-    /* border */
-    /*border-bottom: 1px solid;
-    border-image: linear-gradient(to right, #999999, #ffffff) 0.5;*/
+    border-bottom: 1px solid #ffffff5e;
 }
 
 header div{
@@ -116,16 +116,19 @@ nav{
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     transition: right ease-in-out 0.4s;
 }
 
 body header nav div{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    height: 100%;
+    height: 85%;
+    width: 80%;
 }
 
 body header nav div a{
@@ -135,6 +138,8 @@ body header nav div a{
     font-family: 'Rubik', 'Barlow', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
+    justify-content: flex-start;
+    padding: 15px 0;
 }
 
 nav div a span{
@@ -152,4 +157,21 @@ nav div a span{
 
 #close{
     cursor:pointer;
+}
+
+#projets{
+    display: none;
+}
+
+
+#bg{
+    height: calc(100vh - 65px);
+    background-image: url(img/patern-1.png);
+    background-position: 60%;
+    background-size: auto 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
