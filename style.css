@@ -186,6 +186,14 @@ nav div a span{
     text-align: center;
     /*text-transform: uppercase;*/
     text-shadow: 4px 4px 8px rgb(0, 0, 0), 0 0 3rem #000000ab, 0 0 0.1em #ffffff;
-    padding: 60px;
+    padding: 25px;
     font-family: "valo";
+    font-size: 3rem;
 }
+
+@media screen and (min-width: 720px) {
+    #bg{
+        background-size: cover;
+    }
+  }
+  
