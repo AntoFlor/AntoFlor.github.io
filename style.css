@@ -125,7 +125,7 @@ nav{
     justify-content: center;
     align-items: center;
 
-    transition: right ease-in-out 0.4s;
+    transition: right 0.4s;
 }
 
 body header nav div{
