@@ -1,6 +1,16 @@
-window.onload = navMenuDisplayNone;
+document.onreadystatechange = Loading;
+window.onload = NavMenuDisplayNone;
 
-function navMenuDisplayNone()
+
+function Loading() {
+    if (document.readyState !== "complete") {
+        document.querySelector(".loading").style.visibility = "visible";
+    } else {
+        document.querySelector(".loading").style.visibility = "hidden";
+    }
+}
+
+function NavMenuDisplayNone()
 {
     document.querySelector("#projets").style.display = "none"
 }

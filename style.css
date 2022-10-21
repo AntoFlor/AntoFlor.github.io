@@ -170,6 +170,9 @@ nav div a span{
     height: auto;
 }
 
+header nav .arrow{
+    transition: .3s;
+}
 
 #bg{
     height: 315px;
@@ -201,8 +204,30 @@ nav div a span{
     top: 351px;
   }
 
-  header nav .arrow{
-    transition: .3s;
+  /* loading */
+  .loading {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: #0c0c0d;
+    z-index: 1001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loading span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
   }
 
 @media screen and (min-width: 720px) {
