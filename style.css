@@ -22,6 +22,16 @@ body a{
     cursor: pointer;
 }
 
+body::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+body::-moz-selection {
+    color: none;
+    background: none;
+}
+
 header{
     /* box-sizing */
     height: 65px;
