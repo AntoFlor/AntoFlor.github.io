@@ -22,12 +22,12 @@ body a{
     cursor: pointer;
 }
 
-body::selection {
+::selection {
     color: none;
     background: none;
 }
 /* For Mozilla Firefox */
-body::-moz-selection {
+::-moz-selection {
     color: none;
     background: none;
 }
