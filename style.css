@@ -18,6 +18,10 @@ body{
     font-family: 'Rubik', 'Barlow', sans-serif;
 }
 
+body a{
+    cursor: pointer;
+}
+
 header{
     /* box-sizing */
     height: 65px;
@@ -203,6 +207,10 @@ header nav .arrow{
     position: absolute;
     top: 351px;
   }
+
+#projets span{
+    color: #7d7d7e;
+}
 
   /* loading */
   .loading {

@@ -29,13 +29,13 @@ function Projects(){
     if (document.querySelector("#projets").style.display == "none")
     {
         document.querySelector("#projets").style.display = "flex";
+        document.querySelector("#projectsDefilent").style.padding = "15px 0 8px 0";
         document.querySelector("#arrow1").style.transform = "rotate(90deg)";
-        console.log("flex");
     }
     else if (document.querySelector("#projets").style.display != "none")
     {
         document.querySelector("#projets").style.display = "none";
         document.querySelector("#arrow1").style.transform = "rotate(0deg)";
-        console.log("none");
+        document.querySelector("#projectsDefilent").style.padding = "15px 0 15px 0";
     }
 }
