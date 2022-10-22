@@ -16,20 +16,13 @@ body{
     overflow-x: hidden;
 
     font-family: 'Rubik', 'Barlow', sans-serif;
+
+    /*désactiver le contours bleu lors du click sur mobile*/
+    -webkit-tap-highlight-color: transparent;
 }
 
 body a{
     cursor: pointer;
-}
-
-::selection {
-    color: none;
-    background: none;
-}
-/* For Mozilla Firefox */
-::-moz-selection {
-    color: none;
-    background: none;
 }
 
 header{
