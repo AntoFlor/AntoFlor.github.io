@@ -27,6 +27,10 @@ body{
     user-select: none;
 }
 
+body:focus{
+    outline: none !important;
+}
+
 body a{
     cursor: pointer;
 }
