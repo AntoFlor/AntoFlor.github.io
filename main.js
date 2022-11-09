@@ -1,7 +1,6 @@
 document.onreadystatechange = Loading;
 window.onload = NavMenuDisplayNone;
 
-
 function Loading() {
     if (document.readyState !== "complete") {
         document.querySelector(".loading").style.visibility = "visible";
@@ -12,7 +11,7 @@ function Loading() {
 
 function NavMenuDisplayNone()
 {
-    document.querySelector("#projets").style.display = "none"
+    document.querySelector("#projets").style.display = "none";
 }
 
 function Hamburger(){
@@ -38,4 +37,10 @@ function Projects(){
         document.querySelector("#arrow1").style.transform = "rotate(0deg)";
         document.querySelector("#projectsDefilent").style.padding = "15px 0 15px 0";
     }
+}  
+
+function ThemeColor(){
+
+    document.querySelector("body").style.backgroundColor = "#ffffff"
 }
+
